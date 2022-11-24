@@ -7,10 +7,12 @@ use std::{convert::TryFrom, sync::Mutex};
 use crate::{GenTlError, GenTlResult};
 
 pub(crate) mod u3v;
+pub(crate) mod gige;
 
 use crate::imp::port::{Port, TlType};
 
 mod u3v_genapi;
+mod gige_genapi;
 
 /// The current accessibility of the device.
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]

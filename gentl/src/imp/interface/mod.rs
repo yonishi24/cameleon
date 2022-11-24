@@ -11,8 +11,10 @@ use crate::{
 };
 
 pub(crate) mod u3v;
+pub(crate) mod gige;
 
 mod u3v_genapi;
+mod gige_genapi;
 
 pub(crate) trait Interface: Port {
     fn open(&mut self) -> GenTlResult<()>;

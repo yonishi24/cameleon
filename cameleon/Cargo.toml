@@ -59,5 +59,13 @@ name = "custom_ctxt"
 path = "examples/custom_ctxt.rs"
 required-features = ["libusb"]
 
+[[example]]
+name = "gev_register_map"
+path = "examples/gev/register_map.rs"
+
+
+
+
+
 [package.metadata.docs.rs]
 all-features = true
